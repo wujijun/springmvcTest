@@ -11,7 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-   ${user.name}
-    ${user.age}
+
 </body>
 </html>

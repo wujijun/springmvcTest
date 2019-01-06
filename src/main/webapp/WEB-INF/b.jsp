@@ -12,5 +12,21 @@
 </head>
 <body>
 
+
+<%--<c:forEach items="${data.lists}" var="s">--%>
+<c:forEach items="${data.lists}" var="s">
+    <tr>
+        <td>${s.id}</td>
+        <td>${s.name}</td>
+        <td>${s.age}</td>
+        <td><img src="${s.img}" width="40px" height="40px"> </td>
+        <td>${s.address}</td>
+        <td>${s.unit}</td>
+        <td>${s.rank}</td>
+        <td><a href="delete?id=${s.id}">删除</a> </td>
+        <td><a href="update?id=${s.id}">修改</a> </td>
+    </tr>
+</c:forEach>
+</tbody>
 </body>
 </html>

@@ -42,6 +42,7 @@ public class WebTest {
         map.addAttribute("User",user);
         System.out.println(user);
         return "update";
+
     }
     @RequestMapping("/doUpdate.do")
     public String doUpdate(User user){
